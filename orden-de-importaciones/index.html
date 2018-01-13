@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript</title>
+</head>
+<body>
+
+
+	<!-- si cambiamos el orden de estas dos lineas,
+	primero el app2 y luego el app,
+	cuando el motor de js arranque y haga el objeto global va empezar con el archivo app2
+	(no crea un contexto en el html)
+	la consola arroja un error "nombre no está definido",
+	no lo está encontrando en el objeto global -->
+	
+<!--<script src="app2.js"></script>
+		<script src="app.js"></script> -->
+	
+
+	<!-- js agarra app, lee todo el contexto de app,
+		luego va secuencialmente y asigna el valor de Juan a nombre,
+		despues recorre app2 -->
+
+	<script src="app.js"></script>
+	<script src="app2.js"></script>
+
+</body>
+</html>
