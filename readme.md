@@ -1,4 +1,4 @@
-#Javascript de 0 hasta los detalles
+# Javascript de 0 hasta los detalles
 
 #### La intención de este repositorio es tener un respaldo de mi entrenamiento en javascript.
 
