@@ -66,7 +66,7 @@ persona.imprimirNombre();
 
 
 /*
-// el ejemplo anterior imprimirá María Dubon,a pesar de que haya otra variable llamada Juan Carlos
+// del ejemplo anterior imprimirá María Dubon,a pesar de que haya otra variable llamada Juan Carlos
 
 
 var nombre = "Juan Carlos"

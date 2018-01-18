@@ -142,7 +142,7 @@ console.log( a ); // regresa undefined
 
 // muy interesante
 // que pasa si no le ponemos el parentesis al igualar la función a "a" (reemplazamos "a" por miFuncion)
-// simplemente no estmos invocando a la función
+// simplemente no estamos invocando a la función
 // al recargar la página no aparece nada en la consola
 // pero si llamo a miFuncion en la consola, devuelve funcion primeraFuncion(){console.log("invocada")}
 // y si llamo en la consola miFuncion(), devuelve invocada
