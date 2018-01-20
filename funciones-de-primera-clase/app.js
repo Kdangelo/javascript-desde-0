@@ -1,6 +1,6 @@
 // funciones de primera clase
 // en lenguaje de programación se dice que son de primera clase cuando son tratadas
-// como cualquier otra variable
+// como cualquier otra variable y puede ser pasada como argumento a otras funciones
 
 
 // declaramos la función de nombre a
@@ -20,12 +20,12 @@ a(); // retorna Función a
 
 a.nombre = "Maria"
 
-// lo que hacemos acá es que a la función "a" le asigne una propiedad con el nombre "nombre" 
+// lo que hacemos acá es que a la función "a" le asigné una propiedad con el nombre "nombre" 
 // y que en ese momento tiene el valor "María"
 // si escribimos en la consola a.nombre retorna "María"
 
 // si en la consola escribimos a. el navegador despliega un menú con una serie de eventos propios de una función
-// ahí podemos observar la que hemos creado "nombre", por esoes que aparece "María"
+// ahí podemos observar la que hemos creado "nombre", por eso es que aparece "María"
 
 // aquí hay una desventaja para el español porque aparece name
 // si llamamos en la consola a.name regresa "a", el nombre de la función
@@ -34,7 +34,7 @@ a.nombre = "Maria"
 a.name = "María";
 
 // otro jemplo de estos es apply
-// retorna María, sobreescribimos ese mecanismo
+// retorna María, sobre escribimos ese mecanismo
 
 a.apply = "María";
 
