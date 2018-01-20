@@ -1,4 +1,6 @@
 // funciones de primera clase
+// en lenguaje de programación se dice que son de primera clase cuando son tratadas
+// como cualquier otra variable
 
 
 // declaramos la función de nombre a
