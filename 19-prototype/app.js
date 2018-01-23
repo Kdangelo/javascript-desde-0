@@ -28,8 +28,8 @@ function Persona() {
   this.edad = 30; 
 
   this.imprimirInfo = function() {
-    console.log(this.nombre + " " + this.apellido + "(" + this.edad + ")");
-  }
+    console.log(this.nombre + ' ' + this.apellido + '(' + this.edad + ')');
+  };
 };
 
 // queremos agregar una propiedad de tipo primitiva
@@ -58,12 +58,12 @@ function Persona() {
   this.nombre = 'Fernando';
   this.apellido = 'Herrera';
   this.edad = 30; 
-  this.pais = 'Costa Rica'
+  this.pais = 'Costa Rica';
 };
 
 Persona.prototype.imprimirInfo = function() {
-  console.log(this.nombre + " " + this.apellido + "(" + this.edad + ")");
-}
+  console.log(this.nombre + ' ' + this.apellido + '(' + this.edad + ')');
+};
 
 var fer = new Persona();
 
